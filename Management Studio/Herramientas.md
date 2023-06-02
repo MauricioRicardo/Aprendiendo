@@ -23,6 +23,6 @@ La carpeta destino es la misma que la de nuestra solucion
 
 Para finalizar damos clic en el boton de OK
 
-<img src="https://res.cloudinary.com/dtzgksveo/image/upload/v1685579696/PitooPlumo/Solution_Explorer_au2vff.png" alt="Imagen no disponbible" />
+<img src="https://res.cloudinary.com/dtzgksveo/image/upload/v1685579696/PitooPlumo/Solution_Explorer_au2vff.png" alt="Imagen no disponbible" width="400" height="250"/>
 
 [Regresar](../README.md)
