@@ -80,6 +80,12 @@ Lincoln|Dorado|Navigator|2020
 ___
 <!-- GITHUB MARKDOWN -->
 * [x] Tarea 1
-* [] Tarea 2
-* [] Tarea 3
-* [x] Tarea 4
+* [ ] Tarea 2
+* [x] Tarea 3
+* [ ] Tarea 4
+* [x] Tarea 5
+---
+@Daniel-Dev23 
+:frowning_face: 
+:heart_eyes:
+:grin:
