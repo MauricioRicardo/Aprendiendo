@@ -169,7 +169,7 @@ ___
 Los bloques de código forman parte de la especificación de Markdown, pero el resaltado de sintaxis no. Sin embargo, muchos renderizados como GitHub lo soportan.
 
 ```
-El `código` que quieras resaltar como código al su alrededor tiene `acento grave`
+El `código` que quieras resaltar como código al su alrededor tiene `acento grave`.
 ```
 El `código` que quieras resaltar al su alrededor tiene `acentos graves`.
 
@@ -289,7 +289,7 @@ Se puede utilizar **dos puntos** `:` para alinear las columnas:
 
 Las plecas `|` del exterior son opcionales, no es necesario para realizar la tabla igual que la alineación no es necesaria.
 
-Debe haber al menos **tres guiones** para realizar la cabecera.
+Debe haber al menos **tres guiones medios** para realizar la cabecera.
 
 Dentro de las columnas también se pueden utilizar los comandos para darle estilo a cierto texto:
 
@@ -310,7 +310,7 @@ Se puede utilizar **dos puntos** `:` para alinear las columnas:
 
 Las **plecas** `|` del exterior son opcionales, no es necesario para realizar la tabla igual que la alineación no es necesaria.
 
-Debe haber al menos **tres guiones** para realizar la cabecera.
+Debe haber al menos **tres guiones medios** para realizar la cabecera.
 
 Dentro de las columnas también se pueden utilizar los comandos para darle estilo a cierto texto:
 
@@ -366,13 +366,13 @@ ___
 <!-- LISTA DE TAREAS -->
 # :diamond_shape_with_a_dot_inside: Lista de Tareas
 ```
-* [x] Para realizar una lista de tareas comenzamos con un **asterisco** `*` o **guio medio** `-`
+* [x] Para realizar una lista de tareas comenzamos con un **asterisco** `*` o **guion medio** `-`
 - [ ] Abrimos **corchetes** `[]`, en caso de que la tarea esté finalizada
 * [x] Ingresamos una `X` dentro de los corchetes como en esté ejemplo
 - [ ] En caso de que la tarea no esté finalizada, dejamos vacío los corchetes
 * [x] En este ejemplo tiene un `X` dentro de los corchetes.
 ```
-* [x] Para realizar una lista de tareas comenzamos con un **asterisco** `*` o **guio medio** `-`
+* [x] Para realizar una lista de tareas comenzamos con un **asterisco** `*` o **guion medio** `-`
 - [ ] Abrimos **corchetes** `[]`, en caso de que la tarea esté finalizada
 * [x] Ingresamos una `X` dentro de los corchetes como en esté ejemplo
 - [ ] En caso de que la tarea no esté finalizada, dejamos vacío los corchetes
@@ -383,12 +383,38 @@ ___
 # :diamond_shape_with_a_dot_inside: Emoji
 Podemos agregar emojis a nuestro repositorio, para conocer los comandos en el siguiente enlace te muestra todos los códigos de los [emojis](https://github-emoji-picker.rickstaa.dev/)
 ```
-:frowning_face: 
-:heart_eyes:
-:grin:
+:frowning_face: - :heart_eyes: - :grin:
+
+<details>
+<summary>Lista de Emoji </summary>
+
+Emoji|Emoji|Emoji
+:---:|:---:|:---:
+:diamond_shape_with_a_dot_inside: `:diamond_shape_with_a_dot_inside:` | :fast_forward: `:fast_forward:` | :arrow_forward: `:arrow_forward:`
+:sparkles: `:sparkles:` | :point_right: `:point_right:` | :cyclone: `:cyclone:`
+:milky_way: `:milky_way:` | :sparkler: `:sparkler:` | :space_invader: `:space_invader:`
+:triangular_flag_on_post: `:triangular_flag_on_post:` | :eight_spoked_asterisk: `:eight_spoked_asterisk:` |  :alien: `:alien:`
+:eight_pointed_black_star: `:eight_pointed_black_star:` | :white_check_mark: `:white_check_mark:` | :red_circle: `:red_circle:`
+:pirate_flag: `:pirate_flag:` | :gear: `:gear:` | :robot: `:robot:`
+:speech_balloon: `:speech_balloon:` |  :fire: ` :fire:` | :collision: `:collision:`
+
+</details>
 ```
-:frowning_face: 
+:frowning_face: - :heart_eyes: - :grin:
 
-:heart_eyes:
+<details>
+<summary>Lista de Emoji </summary>
 
-:grin:
+Emoji|Emoji|Emoji
+:---:|:---:|:---:
+:diamond_shape_with_a_dot_inside: `:diamond_shape_with_a_dot_inside:` | :fast_forward: `:fast_forward:` | :arrow_forward: `:arrow_forward:`
+:sparkles: `:sparkles:` | :point_right: `:point_right:` | :cyclone: `:cyclone:`
+:milky_way: `:milky_way:` | :sparkler: `:sparkler:` | :space_invader: `:space_invader:`
+:triangular_flag_on_post: `:triangular_flag_on_post:` | :eight_spoked_asterisk: `:eight_spoked_asterisk:` |  :alien: `:alien:`
+:eight_pointed_black_star: `:eight_pointed_black_star:` | :white_check_mark: `:white_check_mark:` | :red_circle: `:red_circle:`
+:pirate_flag: `:pirate_flag:` | :gear: `:gear:` | :robot: `:robot:`
+:speech_balloon: `:speech_balloon:` |  :fire: ` :fire:` | :collision: `:collision:`
+
+</details>
+
+---
