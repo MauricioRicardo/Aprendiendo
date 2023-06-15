@@ -61,7 +61,7 @@ Para tachar el texto es con dos ~~virgulillas~~.
     1. Sub lista ordenado
     5. Sub lista con número que no es consecutivo del anterior
 7. Otro elemento
-    Para tener un párrafo de texto con sangría dentro de una lista, solo tenemos que presionar la tecla de tabulador TAB
+    Para tener un párrafo de texto con sangría dentro de una lista, solo tenemos que presionar la tecla de tabulador `TAB`
 ```
 1. Primer elemento de una lista ordena
 2. Segundo elemento de una lista ordena
@@ -90,7 +90,7 @@ ___
 ___
 <!-- ENLASE -->
 # :diamond_shape_with_a_dot_inside: Enlaces
-Para realizar enlaces hay dos formas **Relativas**(dentro del proyecto) y **Absolutas**(fuera del proyecto):
+Para realizar enlaces hay dos formas **Relativas** (dentro del proyecto) y **Absolutas** (fuera del proyecto):
 ```
 [Enlace absoluto en línea](https://www.youtube.com/)
 
@@ -173,7 +173,7 @@ El `código` que quieras resaltar como código al su alrededor tiene `acento gra
 ```
 El `código` que quieras resaltar al su alrededor tiene `acentos graves`.
 
-Los bloques de código están  delimitados por tres acentos graves ` ``` `:
+Los bloques de código están  delimitados por **tres acentos graves** ` ``` `:
 
 ```
  ```javascript 
@@ -222,6 +222,22 @@ También se puede utilizar etiquetas HTML sin formato y la mayoría de ellas fun
 </dl>
 
 ___
+# :diamond_shape_with_a_dot_inside: Sección Desplegable
+Para realizar la sección desplegable es necesario usar la etiqueta `<details>`
+
+```html
+<details>
+<summary>El titulo de la sección desplegable </summary>
+    Hola mundo
+</details>
+```
+<details>
+<summary>El titulo de la sección desplegable </summary>
+    Hola mundo
+</details>
+
+---
+
 # :diamond_shape_with_a_dot_inside: Nota a Pie de Página
 Las notas a pie no forman parte de la especificación de Markdown, pero son soportadas por GitHub.
 ```
@@ -261,7 +277,7 @@ ___
 # :diamond_shape_with_a_dot_inside: Tabla
 Las tablas no forman parte de las especificaciones de Markdown, pero GitHub las soporta.
 ```
-Se puede utilizar dos puntos para alinear las columnas:
+Se puede utilizar **dos puntos** `:` para alinear las columnas:
 
 |    Carro   |  Color  |   Modelo  |  Año  |
 |------------|:-------:|----------:|-------|
@@ -271,9 +287,9 @@ Se puede utilizar dos puntos para alinear las columnas:
 | Land Rover | Gris    | Defender  | 2023  |
 | Lincoln    | Dorado  | Navigator | 2020  |
 
-Las plecas (|) del exterior son opcionales, no es necesario para realizar la tabla igual que la alineación no es necesaria.
+Las plecas `|` del exterior son opcionales, no es necesario para realizar la tabla igual que la alineación no es necesaria.
 
-Debe haber al menos tres guiones para realizar la cabecera.
+Debe haber al menos **tres guiones** para realizar la cabecera.
 
 Dentro de las columnas también se pueden utilizar los comandos para darle estilo a cierto texto:
 
@@ -294,7 +310,7 @@ Se puede utilizar **dos puntos** `:` para alinear las columnas:
 
 Las **plecas** `|` del exterior son opcionales, no es necesario para realizar la tabla igual que la alineación no es necesaria.
 
-Debe haber al menos tres guiones para realizar la cabecera.
+Debe haber al menos **tres guiones** para realizar la cabecera.
 
 Dentro de las columnas también se pueden utilizar los comandos para darle estilo a cierto texto:
 
@@ -308,7 +324,7 @@ ___
 ```
 >Una cita es la idea que se extrae de un documento de manera textual o parafraseada que sirve de fundamento el trabajo.
 >Este texto forma parte de la misma cita.
->>También se puede agregar dos mayores que (>) y tomara una sangría dentro de la misma cita.
+>>También se puede agregar **dos mayores que** `>` y tomara una sangría dentro de la misma cita.
 
 Corte de la cita anterior.
 
@@ -350,32 +366,17 @@ ___
 <!-- LISTA DE TAREAS -->
 # :diamond_shape_with_a_dot_inside: Lista de Tareas
 ```
-* [x] Para realizar una lista de tareas comenzamos con un `asterisco` o `guio medio`
-- [ ] Abrimos corchetes, en caso de que la tarea esté finalizada
+* [x] Para realizar una lista de tareas comenzamos con un **asterisco** `*` o **guio medio** `-`
+- [ ] Abrimos **corchetes** `[]`, en caso de que la tarea esté finalizada
 * [x] Ingresamos una `X` dentro de los corchetes como en esté ejemplo
 - [ ] En caso de que la tarea no esté finalizada, dejamos vacío los corchetes
-* [x] En este ejemplo tiene un X dentro de los corchetes.
+* [x] En este ejemplo tiene un `X` dentro de los corchetes.
 ```
-* [x] Para realizar una lista de tareas comenzamos con un `asterisco` o `guio medio`
-- [ ] Abrimos corchetes, en caso de que la tarea esté finalizada
+* [x] Para realizar una lista de tareas comenzamos con un **asterisco** `*` o **guio medio** `-`
+- [ ] Abrimos **corchetes** `[]`, en caso de que la tarea esté finalizada
 * [x] Ingresamos una `X` dentro de los corchetes como en esté ejemplo
 - [ ] En caso de que la tarea no esté finalizada, dejamos vacío los corchetes
-* [x] En este ejemplo tiene un X dentro de los corchetes.
----
-# :diamond_shape_with_a_dot_inside: Sección Desplegable
-Para realizar la sección desplegable es necesario usar la etiqueta `<details>`
-
-```html
-<details>
-<summary>El titulo de la sección desplegable </summary>
-    Hola mundo
-</details>
-```
-<details>
-<summary>El titulo de la sección desplegable </summary>
-    Hola mundo
-</details>
-
+* [x] En este ejemplo tiene un `X` dentro de los corchetes.
 ___
 
 <!-- EMOJI -->
