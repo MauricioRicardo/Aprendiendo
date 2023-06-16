@@ -223,7 +223,7 @@ También se puede utilizar etiquetas HTML sin formato y la mayoría de ellas fun
 
 ___
 # :diamond_shape_with_a_dot_inside: Sección Desplegable
-Para realizar la sección desplegable es necesario usar la etiqueta `<details>`
+Para realizar la sección desplegable es necesario usar la etiqueta `<details>`:
 
 ```html
 <details>
@@ -249,12 +249,13 @@ También se puede utilizar palabras, para la referencia[^nota]
 
 [^1]: Mi referencia.
 
-[^2]: Cada nueva línea debe tener antes cuatro espacios o un TAB.
-    Esto permite tener una nota con varias líneas.
+[^2]: Cada nueva línea debe tener un salto de linea ´Enter´.
+
+Esto permite tener una nota con varias líneas.
 
  [^nota]:
     Las notas con nombre seguirán mostrando números en lugar de texto, pero permiten una mejor identificación y un enlace más sencillo.
-    Esta nota también se ha hecho con una sintaxis diferente utilizando cuatro espacios para las nuevas líneas.
+    
 
 ```
 Esto es una nota a pie de página simples[^1]
@@ -265,12 +266,12 @@ También se puede utilizar palabras, para la referencia[^nota]
 
 [^1]: Mi referencia.
 
-[^2]: Cada nueva línea debe tener antes cuatro espacios o un TAB.
-    Esto permite tener una nota con varias líneas.
+[^2]: Cada nueva línea debe tener un salto de linea ´Enter´.
+
+Esto permite tener una nota con varias líneas.
 
  [^nota]:
     Las notas con nombre seguirán mostrando números en lugar de texto, pero permiten una mejor identificación y un enlace más sencillo.
-    Esta nota también se ha hecho con una sintaxis diferente utilizando cuatro espacios para las nuevas líneas.
 ___
 <!-- TABLAS -->
 # :diamond_shape_with_a_dot_inside: Tabla
@@ -417,7 +418,3 @@ Emoji|Emoji|Emoji
 </details>
 
 ---
-
-# Colores
-
-The background color is `#ffffff` for light mode and `#000000` for dark mode.
