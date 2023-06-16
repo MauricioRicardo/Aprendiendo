@@ -61,7 +61,7 @@ Para tachar el texto es con dos ~~virgulillas~~.
     1. Sub lista ordenado
     5. Sub lista con número que no es consecutivo del anterior
 7. Otro elemento
-    Para tener un párrafo de texto con sangría dentro de una lista, solo tenemos que presionar la tecla de tabulador `TAB`
+    Para tener un párrafo de texto con sangría dentro de una lista, solo tenemos que presionar la tecla de **Tabulador** `TAB`
 ```
 1. Primer elemento de una lista ordena
 2. Segundo elemento de una lista ordena
@@ -69,7 +69,7 @@ Para tachar el texto es con dos ~~virgulillas~~.
     1. Sub lista ordenado
     5. Sub lista con número que no es consecutivo del anterior
 7. Otro elemento  
-    Para tener un párrafo de texto con sangría dentro de una lista, solo tenemos que presionar la tecla de tabulador `TAB`.
+    Para tener un párrafo de texto con sangría dentro de una lista, solo tenemos que presionar la tecla de **Tabulador** `TAB`.
 ___
 <!-- LISTA ORDENADA -->
 # :diamond_shape_with_a_dot_inside: Lista Desordenada
@@ -135,7 +135,7 @@ Imagen en línea:
 Imagen referenciada de nuestro proyecto:
 ![PI](https://res.cloudinary.com/dtzgksveo/image/upload/v1685985500/PitooPlumo/Pi_zec9ef.png "Logo de Pi")
 
-Imagen que cambia dependiendo el tema que tengamos en nuestro equipo en caso de que el tema sea oscuro se mostrar una luna en caso de que el tema sea claro se mostrara un sol
+Imagen que cambia dependiendo el tema que tengamos en nuestro equipo en caso de que el tema sea oscuro se mostrar una luna en caso de que el tema sea claro se mostrara un sol y en caso de que halla un problema con las imágenes se mostrara un eclipse:
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://res.cloudinary.com/dtzgksveo/image/upload/v1686083035/PitooPlumo/Luna_gzuafj.png">
@@ -153,7 +153,7 @@ Imagen en línea:
 Imagen referenciada de nuestro proyecto:
 ![PI](./Recursos/Pi.png "Logo de Pi")
 
-Imagen que cambia dependiendo el tema que tengamos en nuestro equipo en caso de que el tema sea oscuro se mostrar una luna en caso de que el tema sea claro se mostrara un sol:
+Imagen que cambia dependiendo el tema que tengamos en nuestro equipo en caso de que el tema sea oscuro se mostrar una luna en caso de que el tema sea claro se mostrara un sol y en caso de que halla un problema con las imágenes se mostrara un eclipse:
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://res.cloudinary.com/dtzgksveo/image/upload/v1686083035/PitooPlumo/Luna_gzuafj.png">
@@ -239,64 +239,42 @@ Para realizar la sección desplegable es necesario usar la etiqueta `<details>`
 ---
 
 # :diamond_shape_with_a_dot_inside: Nota a Pie de Página
-Las notas a pie no forman parte de la especificación de Markdown, pero son soportadas por GitHub.
+Las notas a pie de página no forman parte de la especificación de Markdown, pero son soportadas por GitHub.
 ```
-Esto es unas nota a pie simples[^1]
+Esto es una nota a pie de página simples[^1]
 
-Una nota a pie también puede tener varias líneas[^2]
+Una nota a pie a pie de página también puede tener varias líneas[^2]
 
 También se puede utilizar palabras, para la referencia[^nota]
 
-[^1]: Mi referencia
+[^1]: Mi referencia.
 
-[^2]: Cada nueva línea debe ir antes dos espacios
-  Esto permite tener una nota con varias líneas
+[^2]: Cada nueva línea debe tener antes cuatro espacios o un TAB.
+    Esto permite tener una nota con varias líneas.
 
  [^nota]:
     Las notas con nombre seguirán mostrando números en lugar de texto, pero permiten una mejor identificación y un enlace más sencillo.
     Esta nota también se ha hecho con una sintaxis diferente utilizando cuatro espacios para las nuevas líneas.
 
 ```
-Esto es unas notas simples[^1]
+Esto es una nota a pie de página simples[^1]
 
-Una nota también puede tener varias líneas[^2]
+Una nota a pie a pie de página también puede tener varias líneas[^2]
 
 También se puede utilizar palabras, para la referencia[^nota]
 
-[^1]: Mi referencia
+[^1]: Mi referencia.
 
-[^2]: Cada nueva línea debe ir antes dos espacios.
-  Esto permite tener una nota con varias líneas.
+[^2]: Cada nueva línea debe tener antes cuatro espacios o un TAB.
+    Esto permite tener una nota con varias líneas.
 
  [^nota]:
     Las notas con nombre seguirán mostrando números en lugar de texto, pero permiten una mejor identificación y un enlace más sencillo.
-
     Esta nota también se ha hecho con una sintaxis diferente utilizando cuatro espacios para las nuevas líneas.
 ___
 <!-- TABLAS -->
 # :diamond_shape_with_a_dot_inside: Tabla
 Las tablas no forman parte de las especificaciones de Markdown, pero GitHub las soporta.
-```
-Se puede utilizar **dos puntos** `:` para alinear las columnas:
-
-|    Carro   |  Color  |   Modelo  |  Año  |
-|------------|:-------:|----------:|-------|
-| Celica     | Negro   | GTS       | 2006  |
-| Honda      | Azul    | Civic     | 2001  |
-| Tesla      | Blanco  | S         | 2020  |
-| Land Rover | Gris    | Defender  | 2023  |
-| Lincoln    | Dorado  | Navigator | 2020  |
-
-Las plecas `|` del exterior son opcionales, no es necesario para realizar la tabla igual que la alineación no es necesaria.
-
-Debe haber al menos **tres guiones medios** para realizar la cabecera.
-
-Dentro de las columnas también se pueden utilizar los comandos para darle estilo a cierto texto:
-
-Normal|Cursiva|Negrita|Código|Tachado
-:---:|:---:|:---:|:---:|:---:|
-Markdown|*Markdown*|**Markdown**|`Markdown`|~~Markdown~~
-1|*2*|**3**|`4`|~~5~~
 ```
 Se puede utilizar **dos puntos** `:` para alinear las columnas:
 
@@ -314,10 +292,31 @@ Debe haber al menos **tres guiones medios** para realizar la cabecera.
 
 Dentro de las columnas también se pueden utilizar los comandos para darle estilo a cierto texto:
 
-Normal|Cursiva|Negrita|Código|Tachado
-:---:|:---:|:---:|:---:|:---:|
-Markdown|*Markdown*|**Markdown**|`Markdown`|~~Markdown~~
-1|*2*|**3**|`4`|~~5~~
+Normal|Cursiva|Negrita|Código|Tachado|Subíndice|Superíndice|
+:---:|:---:|:---:|:---:|:---:|:---:|:---:
+Markdown|*Markdown*|**Markdown**|`Markdown`|~~Markdown~~|Markdown<sub>1</sub>|Markdown<sup>1</sup>
+1|*2*|**3**|`4`|~~5~~|6<sub>1</sub>|7<sup>1</sup>
+```
+Se puede utilizar **dos puntos** `:` para alinear las columnas:
+
+|    Carro   |  Color  |   Modelo  |  Año  |
+|------------|:-------:|----------:|-------|
+| Celica     | Negro   | GTS       | 2006  |
+| Honda      | Azul    | Civic     | 2001  |
+| Tesla      | Blanco  | S         | 2020  |
+| Land Rover | Gris    | Defender  | 2023  |
+| Lincoln    | Dorado  | Navigator | 2020  |
+
+Las **plecas** `|` del exterior son opcionales, no es necesario para realizar la tabla igual que la alineación no es necesaria.
+
+Debe haber al menos **tres guiones medios** para realizar la cabecera.
+
+Dentro de las columnas también se pueden utilizar los comandos para darle estilo a cierto texto:
+
+Normal|Cursiva|Negrita|Código|Tachado|Subíndice|Superíndice|
+:---:|:---:|:---:|:---:|:---:|:---:|:---:
+Markdown|*Markdown*|**Markdown**|`Markdown`|~~Markdown~~|Markdown<sub>1</sub>|Markdown<sup>1</sup>
+1|*2*|**3**|`4`|~~5~~|6<sub>1</sub>|7<sup>1</sup>
 ___
 <!-- CITA -->
 # :diamond_shape_with_a_dot_inside: Cita
@@ -419,3 +418,6 @@ Emoji|Emoji|Emoji
 
 ---
 
+# Colores
+
+The background color is `#ffffff` for light mode and `#000000` for dark mode.
