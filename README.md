@@ -408,13 +408,14 @@ Emoji|Emoji|Emoji
 Emoji|Emoji|Emoji
 :---:|:---:|:---:
 :diamond_shape_with_a_dot_inside: `:diamond_shape_with_a_dot_inside:` | :fast_forward: `:fast_forward:` | :arrow_forward: `:arrow_forward:`
-:sparkles: `:sparkles:` | :point_right: `:point_right:` | :cyclone: `:cyclone:`
-:milky_way: `:milky_way:` | :sparkler: `:sparkler:` | :space_invader: `:space_invader:`
-:triangular_flag_on_post: `:triangular_flag_on_post:` | :eight_spoked_asterisk: `:eight_spoked_asterisk:` |  :alien: `:alien:`
-:eight_pointed_black_star: `:eight_pointed_black_star:` | :white_check_mark: `:white_check_mark:` | :red_circle: `:red_circle:`
-:pirate_flag: `:pirate_flag:` | :gear: `:gear:` | :robot: `:robot:`
-:speech_balloon: `:speech_balloon:` |  :fire: ` :fire:` | :collision: `:collision:`
+:sparkles: `:sparkles:` | :sparkler: `:sparkler:` | :point_right: `:point_right:`
+:milky_way: `:milky_way:` | :cyclone: `:cyclone:` | :space_invader: `:space_invader:`
+:eight_spoked_asterisk: `:eight_spoked_asterisk:` | :white_check_mark: `:white_check_mark:` |  :alien: `:alien:`
+:eight_pointed_black_star: `:eight_pointed_black_star:` | :triangular_flag_on_post: `:triangular_flag_on_post:` | :red_circle: `:red_circle:`
+:speech_balloon: `:speech_balloon:` | :gear: `:gear:` | :robot: `:robot:`
+:pirate_flag: `:pirate_flag:` |  :fire: ` :fire:` | :collision: `:collision:`
 
 </details>
 
 ---
+
