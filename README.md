@@ -264,11 +264,9 @@ Una nota a pie a pie de página también puede tener varias líneas[^2]
 
 También se puede utilizar palabras, para la referencia[^nota]
 
-[^1]: Mi referencia.
+[^1]: Mis referencias.
 
-[^2]: Cada nueva línea debe tener un salto de linea ´Enter´.
-
-Esto permite tener una nota con varias líneas.
+[^2]: Estas son las referencias que podriamos agregar.
 
  [^nota]:
     Las notas con nombre seguirán mostrando números en lugar de texto, pero permiten una mejor identificación y un enlace más sencillo.
